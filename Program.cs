@@ -23,14 +23,14 @@ class Program
             return;
         }
 
-        // Uporządkowanie liczb od najmniejszej do największej
+       
         int[] numbers = { a, b, c };
         Array.Sort(numbers);
         a = numbers[0];
         b = numbers[1];
         c = numbers[2];
 
-        // Sprawdzenie, czy a^2 + b^2 = c^2
+        
         if (IsPythagoreanTriple(a, b, c))
         {
             Console.WriteLine($"Liczby {a}, {b} i {c} tworzą trójkę pitagorejską.");
